@@ -6,7 +6,7 @@ function increaseCounter(){
 }
   function increaseCounter(){
   return counter--;}
-document.addEventListener('DOMContentLoaded',function(e){
+document.addEventListener('DOMContentLoaded',(e)=>{
   
   // counter=0;
    intervalID= setTimeout(increaseCounter, 1000);
