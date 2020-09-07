@@ -2,10 +2,9 @@ let intervalID;
 let counter=0;
 function increaseCounter(c){
   c++;
-  document.getElementById("counter").innerHTML=c;
 }
-  function decreaseCounter(){
-  return counter--;}
+  function decreaseCounter(c){
+  return c--;}
 document.addEventListener('DOMContentLoaded',(e)=>{
   
   // counter=0;
