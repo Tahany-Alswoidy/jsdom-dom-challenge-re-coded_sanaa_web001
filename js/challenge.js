@@ -1,10 +1,10 @@
 let intervalID;
 const counter=0;
-function increaseCounter(counter){
-  return counter;
+function increaseCounter(){
+  return ++counter;
 }
-  function decreaseCounter(c){
-  return c--;}
+  function decreaseCounter(){
+  return --counter;}
 document.addEventListener('DOMContentLoaded',(e)=>{
   
   // counter=0;
