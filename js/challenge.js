@@ -1,5 +1,5 @@
 let intervalID;
-let counter=0;
+const counter=0;
 function increaseCounter(counter){
   return counter;
 }
