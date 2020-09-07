@@ -26,8 +26,10 @@ document.getElementById("heart").addEventListener('click',(event)=>{
 });
 document.getElementById("pause").addEventListener('click',(event)=>{
   event.preventDefault();
-  likes++;
-  document.getElementById("heart").innerHTML=likes+" ❤️";
+  if(document.getElementById("pause").innerHTML==="pause"){
+    document.getElementById("pause").innerHTML==="resume";
+    clearInterval()
+  }
 });
 });
 document.getElementById("submit").addEventListener('click',(event)=>{
