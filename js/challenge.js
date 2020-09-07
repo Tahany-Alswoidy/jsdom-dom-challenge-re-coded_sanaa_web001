@@ -24,6 +24,11 @@ document.getElementById("heart").addEventListener('click',(event)=>{
   likes++;
   document.getElementById("heart").innerHTML=likes+" ❤️";
 });
+document.getElementById("pause").addEventListener('click',(event)=>{
+  event.preventDefault();
+  likes++;
+  document.getElementById("heart").innerHTML=likes+" ❤️";
+});
 });
 document.getElementById("submit").addEventListener('click',(event)=>{
   event.preventDefault();
