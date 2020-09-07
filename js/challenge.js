@@ -28,6 +28,6 @@ document.getElementById("heart").addEventListener('click',(event)=>{
 document.getElementById("submit").addEventListener('click',(event)=>{
   event.preventDefault();
   let para=document.createElement("p");
-  para.innerHTML=document.getElementById("submit").value;
+  para.innerHTML=document.getElementById("comment-input").value;
  document.getElementById("submit").appendChild(para);
 });
