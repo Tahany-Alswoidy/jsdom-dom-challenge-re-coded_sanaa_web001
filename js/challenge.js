@@ -26,13 +26,13 @@ document.getElementById("heart").addEventListener('click',(event)=>{
 });
 document.getElementById("pause").addEventListener('click',(event)=>{
   event.preventDefault();
-  if(document.getElementById("pause").innerHTML==="pause"){
-    document.getElementById("pause").innerHTML="resume";
+  if(document.getElementById("pause").innerHTML===" pause "){
+    document.getElementById("pause").innerHTML=" resume ";
     clearInterval(intervalID);
     counter=0;
   }
-  else if(document.getElementById("pause").innerHTML==="resume"){
-    document.getElementById("pause").innerHTML="pause"
+  else if(document.getElementById("pause").innerHTML===" resume "){
+    document.getElementById("pause").innerHTML=" pause "
     intervalID= setInterval(increaseCounter, 1000);
   }
 });
