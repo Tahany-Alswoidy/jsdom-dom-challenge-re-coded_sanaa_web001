@@ -4,7 +4,7 @@ function increaseCounter(c){
   c++;
   document.getElementById("counter").innerHTML=c;
 }
-  function increaseCounter(){
+  function decreaseCounter(){
   return counter--;}
 document.addEventListener('DOMContentLoaded',(e)=>{
   
