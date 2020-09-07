@@ -1,8 +1,8 @@
 let intervalID;
 let counter=0;
-function increaseCounter(){
-  counter++;
-  document.getElementById("counter").innerHTML=counter;
+function increaseCounter(c){
+  c++;
+  document.getElementById("counter").innerHTML=c;
 }
   function increaseCounter(){
   return counter--;}
@@ -14,6 +14,5 @@ document.addEventListener('DOMContentLoaded',(e)=>{
 });
 document.getElementById("plus").addEventListener('click',(event)=>{
   event.preventDefault();
-  increaseCounter();
-  document.getElementById("counter").innerHTML="counter";
+  increaseCounter(counter);
 });
