@@ -18,5 +18,6 @@ document.getElementById("plus").addEventListener('click',(event)=>{
 });
 document.getElementById("minus").addEventListener('click',(event)=>{
   event.preventDefault();
-  increaseCounter(counter);
+  decreaseCounter();
+  document.getElementById("counter").innerHTML=counter;
 });
