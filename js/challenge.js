@@ -15,4 +15,5 @@ document.addEventListener('DOMContentLoaded',(e)=>{
 document.getElementById("plus").addEventListener('click',(event)=>{
   event.preventDefault();
   increaseCounter();
+  document.getElementById("counter").innerHTML="counter";
 });
