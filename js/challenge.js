@@ -1,7 +1,7 @@
 let intervalID;
 let counter=0;
-function increaseCounter(c){
-  return c++;
+function increaseCounter(counter){
+  return counter;
 }
   function decreaseCounter(c){
   return c--;}
