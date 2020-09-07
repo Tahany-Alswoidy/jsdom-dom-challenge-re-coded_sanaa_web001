@@ -16,3 +16,7 @@ document.getElementById("plus").addEventListener('click',(event)=>{
   event.preventDefault();
   increaseCounter(counter);
 });
+document.getElementById("minus").addEventListener('click',(event)=>{
+  event.preventDefault();
+  increaseCounter(counter);
+});
