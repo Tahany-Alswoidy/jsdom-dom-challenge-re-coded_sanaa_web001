@@ -9,7 +9,7 @@ function increaseCounter(){
     document.getElementById("counter").innerHTML=counter;
   }
 document.addEventListener('DOMContentLoaded',(e)=>{
-  intervalID= setI(increaseCounter, 1000);
+  intervalID= setInterval(increaseCounter, 1000);
   document.getElementById("plus").addEventListener('click',(event)=>{
   event.preventDefault();
   increaseCounter();
