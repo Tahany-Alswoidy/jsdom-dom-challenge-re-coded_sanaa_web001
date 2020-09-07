@@ -13,10 +13,11 @@ document.addEventListener('DOMContentLoaded',(e)=>{
 });
 document.getElementById("plus").addEventListener('click',(event)=>{
   event.preventDefault();
-  increaseCounter(counter);
+  counter=increaseCounter(counter);
+  document.getElementById("counter").innerHTML=counter;
 });
 document.getElementById("minus").addEventListener('click',(event)=>{
   event.preventDefault();
-  decreaseCounter();
+  counter=decreaseCounter();
   document.getElementById("counter").innerHTML=counter;
 });
