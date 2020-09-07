@@ -29,5 +29,5 @@ document.getElementById("submit").addEventListener('click',(event)=>{
   event.preventDefault();
   let para=document.createElement("p");
   para.innerHTML=document.getElementById("comment-input").value;
- document.getElementById("submit").appendChild(para);
+ document.getElementById("list").appendChild(para);
 });
