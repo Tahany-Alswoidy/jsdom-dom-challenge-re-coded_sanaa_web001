@@ -19,4 +19,9 @@ document.getElementById("minus").addEventListener('click',(event)=>{
   event.preventDefault();
   decreaseCounter();
 });
+document.getElementById("heart").addEventListener('click',(event)=>{
+  event.preventDefault();
+  likes++;
+  document.getElementById("heart").innerHTML+=likes;
+});
 });
