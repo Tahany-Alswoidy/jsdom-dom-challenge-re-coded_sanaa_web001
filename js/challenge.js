@@ -1,10 +1,13 @@
 let intervalID;
 const counter=0;
 function increaseCounter(){
-  return ++counter;
+  counter++;
+  document.getElementById("counter").innerHTML=counter;
 }
   function decreaseCounter(){
-  return --counter;}
+    --counter;
+    document.getElementById("counter").innerHTML=counter;
+  }
 document.addEventListener('DOMContentLoaded',(e)=>{
   
   // counter=0;
