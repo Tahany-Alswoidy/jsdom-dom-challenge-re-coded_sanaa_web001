@@ -30,4 +30,5 @@ document.getElementById("submit").addEventListener('click',(event)=>{
   let para=document.createElement("p");
   para.innerHTML=document.getElementById("comment-input").value;
  document.getElementById("list").appendChild(para);
+ document.getElementById("comment-input").value="";
 });
