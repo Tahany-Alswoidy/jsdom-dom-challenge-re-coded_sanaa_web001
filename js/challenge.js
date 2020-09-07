@@ -1,5 +1,6 @@
 let intervalID;
 let counter=0;
+let likes=0;
 function increaseCounter(){
   counter++;
   document.getElementById("counter").innerHTML=counter;
